@@ -161,9 +161,9 @@ Argumento: Ingresa el ID del anime a buscar
 def eliminar_anime():
     print("""
 -----------------------------------------------------
-|             Modifica UN ANIME existente           |
+|             ELIMINAR UN ANIME existente           |
 -----------------------------------------------------
-#--     Ingresa el [ID] del anime a modificar     --#
+#--     Ingresa el [ID] del anime a Eliminar      --#
 """)
     id = int(input(">> "))
     crud.Delete(id)
